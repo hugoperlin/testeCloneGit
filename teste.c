@@ -3,6 +3,14 @@
 
 int main(){
 
+    int idade;
+
+    printf("Digite sua idade:");
+    scanf("%d",&idade);
+
+    idade -=1;
+
+    printf("\nSua nova idade:%d\n",idade);
 
     return 0;
 }
